@@ -1,0 +1,127 @@
+@import "https://fonts.googleapis.com/css?family=Russo+One";
+
+body{
+    background-color: white;
+    padding: auto;
+    margin: auto;
+
+}
+#gradient
+{
+    width: 100%;
+    height: 2390px;
+    padding: auto;
+    margin: auto;
+}
+
+h1.funny-title-foreach{border-top:5px solid #E0DBDE;border-bottom:5px solid #E0DBDE;font-size:70px;text-align:center;margin-bottom:65px;text-transform:uppercase;font-family:'Russo One',sans-serif;font-weight:900;letter-spacing:8px}
+h1.funny-title{border-top:5px solid #E0DBDE;border-bottom:5px solid #E0DBDE;font-size:70px;text-align:center;margin-top:40px;margin-bottom:5px;text-transform:uppercase;font-family:'Russo One',sans-serif;font-weight:900;letter-spacing:8px}
+h1.funny-title-created{border-top:5px solid #E0DBDE;border-bottom:5px solid #E0DBDE;font-size:70px;text-align:center;margin-top:40px;margin-bottom:0px;text-transform:uppercase;font-family:'Russo One',sans-serif;font-weight:900;letter-spacing:8px}
+@-webkit-keyframes move-background {
+    0%{background-position:-300px 0}
+    100%{background-position:300px -300px}
+}
+@-moz-keyframes move-background {
+    0%{background-position:-300px 0}
+    100%{background-position:300px -300px}
+}
+@keyframes move-background {
+    0%{background-position:-300px 0}
+    100%{background-position:300px -300px}
+}
+.section-title{-webkit-animation-play-state:running;
+    -moz-animation-play-state:running;
+    animation-play-state:running;
+    color:transparent;
+    background:url(https://obninsksite.ru/assets/theme/images/blog/square.svg) no-repeat #ECE7EA;
+    background-size:cover;-webkit-text-fill-color:transparent;-moz-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -webkit-animation:move-background 20s infinite linear alternate;
+    -moz-animation:move-background 20s infinite linear alternate;
+    animation:move-background 20s infinite linear alternate}
+
+p.foreach{
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    margin-left: 80px;
+}
+p.scope{
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    margin-left: 80px;
+}
+
+
+table {
+    background: url("https://html5book.ru/wp-content/uploads/2019/04/suggestions.png") 98% 86% no-repeat;
+    text-align: center;
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+
+}
+th {
+    font-family: 'Yeon Sung', cursive;
+    font-size: 18px;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+
+}
+td {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #bac0c4;
+    /*border-top: 1px solid white;*/
+    font-size: 16px;
+    font-weight: bold;
+    border:none;
+    padding: 10px 12px;
+    background: rgba(51, 51, 153, .2);
+    transition: .3s;
+}
+tr:hover td {
+    background: rgba(51, 51, 153, .1);
+    border:none;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+div.TaskThree p.TextIsNext{
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+div.TaskThree p.text{
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+div.TaskThree p.LineIs{
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+div.TaskThree h2.func{
+    font-family: 'Yeon Sung', cursive;
+    color: #ff6069;
+    text-align: center;
+    font-weight: bold;
+}
+div.TaskThree p.st{
+    font-family: 'Yeon Sung', cursive;
+    color: #d6dee2;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: bold;
+}
